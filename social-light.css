@@ -6,6 +6,7 @@
  * Copyright:   KISS Web Design - (C) 2012 - All rights reserved
  * License:     This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported License.
  *              http://creativecommons.org/licenses/by-sa/3.0/
+ *              The licence applies to all social-dark-webfont files.
 /* ===================================================================== */
 
 /*
@@ -32,8 +33,8 @@ Amazon              		2                   content: '2';
 Soundcloud          		3                   content: '3';
 Reddit              		4                   content: '4';
 Lastfm              		5                   content: '5';
-
 */
+
 @font-face {
     font-family: 'KISSWebDesignSocialLight';
     src: url('social-light-webfont.eot');
@@ -45,16 +46,17 @@ Lastfm              		5                   content: '5';
     font-style: normal;
 }
 
-html {
-    font-size: 100%;
-}
 
-body {
-    font-family: Cambria,Georgia,Times,"Times New Roman";
-    font-size: 100%;
-    line-height: 1.5;
-	width: 960px;
-}
+/* =====================================================================
+ * Useage:  Add this stylesheet to the <head> section of the page you
+ *          want to use the icon(s) on.
+ *          Use the psuedo elements :before and/or :after to display the
+ *          icon(s) before or after the content of the element.
+ *          Test the implementation using the div.showallglyphs element
+ *          on your webpage.
+ *          The glyph icons can be styled exactly the same as standard 
+ *          font stylings.
+/* =====================================================================*/
 
 div.showallglyphs {
 	padding: 20px;
